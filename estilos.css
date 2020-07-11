@@ -1,0 +1,150 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+@font-face {
+    font-family:themillion;
+    src: url(Letras/letra1.ttf);
+}
+
+@font-face {
+    font-family:themillion2;
+    src: url(Letras/letra2.ttf);
+}
+
+@font-face {
+    font-family:themillion3;
+    src: url(Letras/letra3.ttf);
+}
+
+@font-face {
+    font-family:themillion4;
+    src: url(Letras/letra4.ttf);
+}
+
+@font-face {
+    font-family:themillion5;
+    src: url(Letras/letra5.ttf);
+}
+
+
+.titulo {
+    color: white;
+    font-family: themillion;
+    font-size: 40px;
+    font-weight: bold;
+}
+    
+
+.titulo2 {
+    color: white;
+    font-family: themillion3;
+}
+
+.titulo3 {
+    text-align: left;
+    font-family: themillion4;
+}
+
+.titulo4 {
+    text-align: left;
+    font-family: themillion4;
+    margin-bottom: 15px;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+    background:black;
+}
+
+.parrafo {
+    text-align: justify;
+    font-family: themillion5;
+}
+
+.agrupar {
+    border: 1px solid black;
+    width: 100%;
+    background-image: url(Imagenes/img15.jpeg);
+    background-repeat: repeat;
+    box-sizing: border-box;
+}
+
+.cabecera {
+    background-image: url(Imagenes/img11.jpeg);
+    background-size: 100%;
+    background-position: center;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.cabecera h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu {
+    background: white;
+    padding: 5px 15px;
+
+}
+
+.menu ul {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+}
+
+.seccion {
+    margin: 10%;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+article {
+    background: #FAEBD7;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    background-image: url(Imagenes/imagen2.jpeg);
+    background-position: center;
+}
+
+.titulo5 {
+    font-family: themillion5;
+    font-size: 20px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 400px) {
+    .agrupar {
+        width: 100%;
+    }
+    .column {
+        display: none;
+    }
+}
